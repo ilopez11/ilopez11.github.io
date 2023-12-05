@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="images/logos/ParadiseFavicon.png">
+    <title>The Paradise Restaurant</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e2782767de.js" crossorigin="anonymous"></script>
+    <script src="javascript/jquery-3.7.1.js"></script>
+    <script src="javascript/main-page.js"></script>
+    <script src="javascript/master.js"></script>
+  </head>
+  <body>
+    <section class="main">
+      <header id="topHeader">
+        <div id="topInfo" class="top-info">
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          <a href="index.html"> <img id="logo" src="images/logos/ParadiseLogoModified.png" alt="Restaurant Logo"> </a>
+          <nav>
+            <div class="nav-screen" id="navScreen" onclick="hideMenu()"></div>
+            <div class="nav-links" id="navLinks">
+              <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Spaces</a></li>
+              </ul>
+              <img id="miniLogo" src="images/logos/ParadiseFavicon.png" alt="Mini Restaurant Logo">
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="business-info">
+        <div class="hours">
+          <br>
+          <h1>Business Hours:</h1>
+          <p>Tuesday to Friday, 8:00 AM - 8:00 PM </p>
+          <p>Saturday & Sunday, 8:00 AM - 3:00 PM </p>
+          <p>Monday, Closed</p>
+          <br>
+        </div>
+        <div class="location">
+          <h2>Location:</h2>
+          <p><a id="address" href="https://www.google.com/maps/place/The+Paradise+Restaurant/@47.4299499,-120.3160758,15z/data=!4m2!3m1!1s0x0:0x2a5bc17c9981500a?sa=X&ved=2ahUKEwiD5Yvpt6iBAxUZO0QIHRfQDB4Q_BJ6BAhKEAA&ved=2ahUKEwiD5Yvpt6iBAxUZO0QIHRfQDB4Q_BJ6BAhmEAk">334 N Wenatchee Ave, Wenatchee, WA 98801</a></p>
+          <p><a id="number" href="tel:15094709595">(509) 470-9595</a></p>
+        </div>
+        <div class="services">
+          <ul>
+            <li>Dine-in</li>
+            <li>Outdoor Seating</li>
+            <li>Takeout</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row-images">
+        <div class="img-column">
+          <a href="menu.html"><img class="images" id="imgColumn1" src="images/spaces/Patio.jpeg" alt="Outdoor Patio"></a>
+          <h3 class="img-txt">See More of Our Spaces</h3>
+        </div>
+        <div class="img-column">
+          <a href="menu.html"><img class="images" id="imgColumn2" src="images/owners/Employees.jpg" alt="Photo of Employees"></a>
+          <h3 class="img-txt">Meet Our Owners</h3>
+        </div>
+        <div class="img-column">
+          <a href="menu.html"><img class="images" id="imgColumn3" src="images/menu/Pies.jpeg" alt="Menu Photos"></a>
+          <h3 class="img-txt">See Our Menu</h3>
+        </div>
+      </div>
+    </section>
+    <section class="business-summary">
+      <div class="summary-col">
+        <h1>Our Mission</h1>
+        <p>
+          We are committed to serve fresh and authentic American/Mexican dishes and pies baked from scratch in an environment that is friendly and clean. Customers First! 
+        </p>
+      </div>
+    </section>
+    <section class="footer">
+      <div>
+        <h2>Follow Us</h2>
+        <ul class="social-list">
+          <li>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023. The Paradise Restaurant. All Rights Reserved.</p>
+      </div>
+    </section>
+  </body>
+</html>
