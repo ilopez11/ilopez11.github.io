@@ -81,6 +81,7 @@
 
 .breakfast-title {
     background-color: #925d5d;
+    padding: 18.5px 0px 18.5px 0px;
 }
 
 .row-images {
@@ -173,12 +174,12 @@ bottom: -85px;
     }
 
     .menu-categories {
-        flex: 0 0 71px;
+        flex: 0 0 73px;
     }
 
     .menu-category-list {
         display: flex;
-        height: auto;
+        height: 73px;
         width: 100%;
         box-shadow: 0px 20px 20px 0px rgba(0,0,0,.1);
         flex-direction: column;
@@ -214,6 +215,10 @@ bottom: -85px;
 .displayed-nav {
     display: block;
     height: 385px;
+}
+
+.nav-extended {
+    height: auto;
 }
 
 

@@ -10,12 +10,14 @@ window.addEventListener("load", function() {
     $('.menu-title, .title').click(function() {
         $('.category-nav').toggleClass('displayed-nav');
         $('.fa-angle-down').toggleClass('fa-angle-up');
+        $('.menu-category-list').toggleClass('nav-extended');
     });
 
     $('.menu-info').click(function() {
         if ($('.category-nav').hasClass('displayed-nav')) {
             $('.category-nav').toggleClass('displayed-nav');
             $('.fa-angle-down').toggleClass('fa-angle-up');
+            $('.menu-category-list').toggleClass('nav-extended');
         }
     });
   
@@ -42,8 +44,8 @@ window.addEventListener("load", function() {
         var topOfSection;
         $('.section').each(function() {
             if (window.innerWidth < 884) {
-                topOfSection = windowTop + 70;
-                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 105){
+                topOfSection = windowTop + 70.5;
+                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 107.5){
                     $('.menu-title h1').html($(this).children().eq(0).text());
                     $(".title").removeClass('selected');
                     $(".title."+$(this).attr('id')).addClass('selected');
@@ -52,7 +54,7 @@ window.addEventListener("load", function() {
                     $('.menu-title h1').html("Menu");
                 }
             } else {
-                topOfSection = windowTop + 105;
+                topOfSection = windowTop + 105.5;
                 $('.menu-title h1').html("Menu");
                 if($(this).offset().top + $(this).height() > topOfSection){
                     $(".title").removeClass('selected');
