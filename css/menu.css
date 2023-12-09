@@ -39,7 +39,7 @@
 
 .menu-title {
     pointer-events: none;
-    padding: 18.5px 0px 18.5px 0px;
+    padding: 16.5px 0px 16.5px 0px;
     width: 100%;
 }
 
@@ -82,6 +82,14 @@
 .breakfast-title {
     background-color: #925d5d;
     padding: 18.5px 0px 18.5px 0px;
+}
+
+.breakfast-title h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75%;
+    white-space: nowrap;
+    margin: auto;
 }
 
 .row-images {
@@ -164,8 +172,10 @@ bottom: -85px;
 
 .menu-title i {
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 8px;
+    top: -7px;
     display: none;
+    position: relative;
 }
 
 @media(max-width: 884px) {
@@ -179,7 +189,7 @@ bottom: -85px;
 
     .menu-category-list {
         display: flex;
-        height: 73px;
+        height: auto;
         width: 100%;
         box-shadow: 0px 20px 20px 0px rgba(0,0,0,.1);
         flex-direction: column;
@@ -196,6 +206,11 @@ bottom: -85px;
 
     .menu-title h1 {
         display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 75%;
+        white-space: nowrap;
+        margin: auto;
     }
 
     .menu-title i {
