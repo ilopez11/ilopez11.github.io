@@ -214,13 +214,12 @@ bottom: -85px;
 
 .displayed-nav {
     display: block;
-    height: 385px;
+    height: auto;
 }
 
 .nav-extended {
     height: auto;
 }
-
 
 
 
