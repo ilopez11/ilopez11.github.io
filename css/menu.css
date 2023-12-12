@@ -27,7 +27,6 @@
     background: #eee2d4;
     z-index: 1;
     overflow: auto;
-    padding-bottom: 15px;
 }
 
 .menu-category-list-fixed-80 {
@@ -47,6 +46,10 @@
 
 .menu-categories h1 {
     color: black;
+}
+
+.category-nav {
+    padding-bottom: 20px;
 }
 
 .menu-links .large {
@@ -199,7 +202,6 @@ bottom: -85px;
         position: fixed;
         top: 105px;
         transition: 0.25s;
-        padding-bottom: 10px;
     }
 
     .menu-title {
@@ -227,6 +229,7 @@ bottom: -85px;
 
     .category-nav {
         display: none;
+        padding-bottom: 10px;
     }
 
 }
