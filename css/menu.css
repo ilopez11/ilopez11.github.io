@@ -26,6 +26,7 @@
     width: 295px;
     background: #eee2d4;
     z-index: 1;
+    overflow: auto;
 }
 
 .menu-category-list-fixed-80 {
@@ -190,7 +191,7 @@ bottom: -85px;
     .menu-category-list {
         display: flex;
         height: auto;
-        max-height: 44%;
+        max-height: 75%;
         width: 100%;
         box-shadow: 0px 20px 20px 0px rgba(0,0,0,.1);
         flex-direction: column;
