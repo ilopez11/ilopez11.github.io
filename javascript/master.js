@@ -40,7 +40,7 @@ function hideMenu() {
     navLinks.style.left = "-200px";
     navScreen.style.backgroundColor = "rgba(0,0,0,0)";
     navScreen.style.pointerEvents = "none";
-    $('body').css('overflow','visible');
+    $('body').css('overflow','');
     $('body').css('touch-action','');
     $('body').css('-ms-touch-action', '');
     miniLogo.style.left = '-120px';

@@ -411,6 +411,10 @@ header {
   padding-top: 20px;
 }
 
+.unscrollable {
+  overflow: hidden;
+}
+
 
 
 

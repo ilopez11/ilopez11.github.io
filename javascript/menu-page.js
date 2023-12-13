@@ -10,12 +10,14 @@ window.addEventListener("load", function() {
     $('.menu-title, .title').click(function() {
         $('.category-nav').toggleClass('displayed-nav');
         $('.fa-angle-down').toggleClass('fa-angle-up');
+        $('body').toggleClass('unscrollable');
     });
 
     $('.menu-info').click(function() {
         if ($('.category-nav').hasClass('displayed-nav')) {
             $('.category-nav').toggleClass('displayed-nav');
             $('.fa-angle-down').toggleClass('fa-angle-up');
+            $('body').toggleClass('unscrollable');
         }
     });
   
