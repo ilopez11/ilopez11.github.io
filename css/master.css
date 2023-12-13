@@ -413,6 +413,8 @@ header {
 
 .unscrollable {
   overflow: hidden;
+  touch-action: none;
+  -ms-touch-action: none;
 }
 
 
