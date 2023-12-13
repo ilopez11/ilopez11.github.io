@@ -1,6 +1,7 @@
 "use strict";
 
 window.addEventListener("load", function() {
+    window.addEventListener("orientationchange", scrollFunction());
     window.addEventListener("scroll", scrollFunction);
     window.addEventListener("resize", scrollFunction);
     document.addEventListener('dblclick', function(event) {

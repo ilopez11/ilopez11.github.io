@@ -22,7 +22,8 @@ window.addEventListener("load", function() {
         $('.fa-angle-down').toggleClass('fa-angle-up');
         $('body').toggleClass('unscrollable');
     }
-  
+
+    window.addEventListener("orientationchange", scrollFunction());
     window.addEventListener("scroll", scrollFunction);
     window.addEventListener("resize", scrollFunction);
 
