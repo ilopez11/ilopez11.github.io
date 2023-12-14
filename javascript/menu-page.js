@@ -23,7 +23,9 @@ window.addEventListener("load", function() {
         $('body').toggleClass('unscrollable');
     }
 
-    window.addEventListener("orientationchange", scrollFunction());
+    window.addEventListener("orientationchange", function() {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+      }, false);
     window.addEventListener("scroll", scrollFunction);
     window.addEventListener("resize", scrollFunction);
 
