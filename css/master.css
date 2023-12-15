@@ -340,7 +340,7 @@ header {
 
 .img-column:hover img, .images.hovered {
   box-shadow: 0 0 25px 1px wheat;
-  width: 270px;
+  width: 280px;
   height: 220px;
   opacity: 50%;
 }
@@ -357,7 +357,7 @@ header {
 .img-column h3 {
   position: relative;
   font-size: 22px;
-  bottom: -100px;
+  bottom: -95px;
   text-align: center;
   color: #ffffff;
   transition: 0.3s;

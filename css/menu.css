@@ -119,7 +119,7 @@
 .img-background {
     opacity: 0% !important;
     height: 35px !important;
-    width: 253px !important;
+    width: 263px !important;
     border: 8px solid !important;
     margin-bottom: -168px !important;
     border-bottom-left-radius: 3px !important;
@@ -132,14 +132,14 @@
 .img-column:hover .img-background {
     opacity: 60% !important;
     height: 40px !important;
-    width: 258px !important;
+    width: 268px !important;
     margin-bottom: -168px !important;
 }
 
 
 .img-column:hover .img-background-larger {
     height: 55px !important;
-    width: 258px !important;
+    width: 268px !important;
     margin-bottom: -153px !important;
 }
 
