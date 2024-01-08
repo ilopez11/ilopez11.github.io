@@ -321,11 +321,12 @@ header {
   width: 255px;
   height: 195px;
   transition: 0.25s;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   display: inherit;
   visibility: hidden;
   cursor: pointer;
+  flex-flow: wrap-reverse;
 }
 
 .row-images img {
@@ -342,7 +343,7 @@ header {
   box-shadow: 0 0 25px 1px wheat;
   width: 280px;
   height: 220px;
-  opacity: 50%;
+  opacity: 60%;
 }
 
 .img-column:hover h3, .img-txt.hovered {
