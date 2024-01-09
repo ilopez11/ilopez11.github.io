@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
         if ($('.category-nav').hasClass('displayed-nav')) {
             toggleNavDisplay();
         }
-    });
+    }); 
 
     function toggleNavDisplay() {
         $('.category-nav').toggleClass('displayed-nav');
