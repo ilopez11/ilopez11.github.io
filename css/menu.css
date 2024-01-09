@@ -233,7 +233,7 @@
     } 
 
     .menu-categories {
-        flex: 0 0 56.2px;
+        flex: 0 0 56px;
     }
 
     .menu-category-list {
@@ -281,13 +281,13 @@
 
 @media(max-width: 390px) {
     .menu-categories {
-        flex: 0 0 54.2px;
+        flex: 0 0 54px;
     }
 }
 
 @media(max-width: 350px) {
     .menu-categories {
-        flex: 0 0 51.7px;
+        flex: 0 0 51px;
     }
 }
 
