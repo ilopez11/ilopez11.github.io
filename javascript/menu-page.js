@@ -51,10 +51,11 @@ window.addEventListener("load", function() {
     
         var windowTop = $(window).scrollTop();
         var topOfSection;
+        var topMargin = (window.innerWidth < 350) ? 86 : (window.innerWidth < 390) ? 88.5 : 90.5;
         $('.section').each(function() {
             if (window.innerWidth < 884) {
                 topOfSection = windowTop + 70;
-                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 90.5){
+                if($(this).offset().top + $(this).height() > topOfSection && windowTop > topMargin){
                     $('.menu-title h1').html($(this).children().eq(0).text());
                     $(".title").removeClass('selected');
                     $(".title."+$(this).attr('id')).addClass('selected');
