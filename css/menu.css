@@ -233,7 +233,7 @@
     } 
 
     .menu-categories {
-        flex: 0 0 56px;
+        flex: 0 0 56.2px;
     }
 
     .menu-category-list {
@@ -277,6 +277,18 @@
         padding-bottom: 10px;
     }
 
+}
+
+@media(max-width: 390px) {
+    .menu-categories {
+        flex: 0 0 54.2px;
+    }
+}
+
+@media(max-width: 350px) {
+    .menu-categories {
+        flex: 0 0 51.7px;
+    }
 }
 
 .displayed-nav {
