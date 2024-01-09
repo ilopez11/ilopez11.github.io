@@ -3,7 +3,7 @@ window.addEventListener("load", function() {
         if (window.innerWidth > 884) {
             $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-105}, "slow");
         } else {
-            $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-70}, "slow");
+            $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-69}, "slow");
         }
     });
 
@@ -53,8 +53,8 @@ window.addEventListener("load", function() {
         var topOfSection;
         $('.section').each(function() {
             if (window.innerWidth < 884) {
-                topOfSection = windowTop + 70.5;
-                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 107.5){
+                topOfSection = windowTop + 70;
+                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 98.5){
                     $('.menu-title h1').html($(this).children().eq(0).text());
                     $(".title").removeClass('selected');
                     $(".title."+$(this).attr('id')).addClass('selected');
