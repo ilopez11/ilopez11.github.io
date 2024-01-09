@@ -51,7 +51,7 @@ window.addEventListener("load", function() {
     
         var windowTop = $(window).scrollTop();
         var topOfSection;
-        var topMargin = (window.innerWidth < 350) ? 85.5 : (window.innerWidth < 390) ? 88.5 : 89;
+        var topMargin = (window.innerWidth <= 350) ? 86 : (window.innerWidth <= 390) ? 89 : 91;
         $('.section').each(function() {
             if (window.innerWidth < 884) {
                 topOfSection = windowTop + 70;
