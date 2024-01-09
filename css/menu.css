@@ -40,7 +40,7 @@
 
 .menu-title {
     pointer-events: none;
-    padding: 12px 0px 12px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100%;
 }
 
@@ -86,7 +86,7 @@
 
 .breakfast-title {
     background-color: #925d5d;
-    padding: 14px 0px 14px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .breakfast-title h1 {
@@ -222,7 +222,7 @@
 .menu-title i {
     font-size: 20px;
     margin-left: 8px;
-    top: -7px;
+    top: 6px;
     display: none;
     position: relative;
 }
@@ -233,7 +233,7 @@
     }
 
     .menu-categories {
-        flex: 0 0 64px;
+        flex: 0 0 56px;
     }
 
     .menu-category-list {
@@ -261,6 +261,7 @@
         max-width: 75%;
         white-space: nowrap;
         margin: auto;
+        vertical-align: middle;
     }
 
     .menu-title i {

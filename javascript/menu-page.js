@@ -54,7 +54,7 @@ window.addEventListener("load", function() {
         $('.section').each(function() {
             if (window.innerWidth < 884) {
                 topOfSection = windowTop + 70;
-                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 98.5){
+                if($(this).offset().top + $(this).height() > topOfSection && windowTop > 90.5){
                     $('.menu-title h1').html($(this).children().eq(0).text());
                     $(".title").removeClass('selected');
                     $(".title."+$(this).attr('id')).addClass('selected');
