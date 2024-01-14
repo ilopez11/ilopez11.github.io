@@ -113,7 +113,7 @@
 
 .img-column:hover h3, .img-txt.hovered {
     opacity: 1;
-    bottom: -33.5vw;
+    bottom: -33.4vw;
 }
 
 .img-background {
@@ -143,7 +143,7 @@
 }
 
 .img-column-larger:hover h3 {
-    bottom: -33.5vw
+    bottom: -33.4vw
 }
 
 @media(max-width: 589px) {
@@ -204,7 +204,7 @@
 }
 
 .text-box .img-txt {
-    bottom: 0;
+    bottom: 0.5px;
     opacity: 1;
     position: relative;
 }
