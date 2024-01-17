@@ -346,11 +346,6 @@ header {
   opacity: 60%;
 }
 
-.img-column:hover h3, .img-txt.hovered {
-  opacity: 1;
-  bottom: 0px;
-}
-
 .img-column a {
   display: contents;
 }
@@ -358,7 +353,7 @@ header {
 .img-column h3 {
   position: relative;
   font-size: 22px;
-  bottom: -95px;
+  bottom: 0px;
   text-align: center;
   color: #ffffff;
   transition: 0.3s;
