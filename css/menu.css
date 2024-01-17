@@ -148,7 +148,8 @@
 .text-box {
     pointer-events: none;
     height: 51px;
-    margin: 5px 20px;
+    width: 255px;
+    margin: 5px 15px;
     align-items: center;
 }
 
@@ -170,6 +171,11 @@
     .text-box-larger .img-background {
         height: 51px !important;
     }
+
+    .img-column h3 {
+        max-width: 255px;
+    }
+
 }
 
 @media(max-width: 589px) {

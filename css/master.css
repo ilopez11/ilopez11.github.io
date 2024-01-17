@@ -316,10 +316,10 @@ header {
 }
 
 .img-column {
-  margin: 20px;
+  margin: 5px;
   border-radius: 2%;
-  width: 255px;
-  height: 195px;
+  width: 279px;
+  height: 219px;
   transition: 0.25s;
   align-items: end;
   justify-content: center;
