@@ -114,7 +114,7 @@
 .img-background {
     opacity: 0% !important;
     height: 35px !important;
-    width: 259px !important;
+    width: 309px !important;
     border: 8px solid !important;
     margin-bottom: 2px !important;
     border-bottom-left-radius: 1px !important;
@@ -127,12 +127,11 @@
 .img-column:hover .img-background {
     opacity: 60% !important;
     height: 40px !important;
-    width: 264px !important;
+    width: 314px !important;
 }
 
 .img-column:hover .img-background-larger {
     height: 55px !important;
-    width: 264px !important;
 }
 
 .img-column:hover h3, .img-txt.hovered {
@@ -148,8 +147,8 @@
 .text-box {
     pointer-events: none;
     height: 51px;
-    width: 255px;
-    margin: 5px 15px;
+    width: 325px;
+    margin: 5px 10px;
     align-items: center;
 }
 
@@ -167,18 +166,18 @@
     height: 67px;
 }
 
-@media(min-width: 590px) {
+@media(min-width: 699px) {
     .text-box-larger .img-background {
         height: 51px !important;
     }
 
     .img-column h3 {
-        max-width: 255px;
+        max-width: 290px;
     }
 
 }
 
-@media(max-width: 589px) {
+@media(max-width: 698px) {
 
     .row-images .images, .img-column {
         width: 90vw;
@@ -211,7 +210,6 @@
     } 
 
     .img-column:hover .img-background-larger {
-        width: 90vw !important;
         height: 14vw !important;
     }
 
