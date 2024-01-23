@@ -13,7 +13,7 @@
 }
 
 .menu-categories {
-    flex: 0 0 295px;
+    flex: 0 0 325px;
     display: flex;
     justify-content: center;
     background-color: #eee2d4;
@@ -23,7 +23,7 @@
     transition: 0.25s;
     box-shadow: 20px 20px 20px 0px rgba(0,0,0,.1);
     height: -webkit-fill-available;
-    width: 295px;
+    width: 325px;
     background: #eee2d4;
     z-index: 1;
     overflow: auto;
