@@ -54,20 +54,20 @@
 
 .menu-links .large {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links .normal {
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links ul * {
     text-decoration: none;
     overflow-x: hidden;
-    margin: 3px;
+    margin: 4px;
 }
 
 
@@ -113,8 +113,8 @@
 
 .img-background {
     opacity: 0% !important;
-    height: 35px !important;
-    width: 309px !important;
+    height: 2vw !important;
+    width: 100%;
     border: 8px solid !important;
     margin-bottom: 2px !important;
     border-bottom-left-radius: 1px !important;
@@ -122,38 +122,43 @@
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
     box-shadow: none !important;
+    position: relative !important;
 }
 
 .img-column:hover .img-background {
     opacity: 60% !important;
-    height: 40px !important;
-    width: 314px !important;
+    height: 3vw !important;
+    width: 100% !important;
 }
 
 .img-column:hover .img-background-larger {
-    height: 55px !important;
+    height: 4vw !important;
+}
+
+.img-column h3 {
+    bottom: -10.5vw;
+    font-size: 1.8vw;
+    max-width: 90%;
 }
 
 .img-column:hover h3, .img-txt.hovered {
     opacity: 1;
-    bottom: 18px;
-}
-
-.img-column:hover .img-txt-larger {
-    opacity: 1;
-    bottom: 15px;
+    bottom: -9.7vw;
 }
 
 .text-box {
     pointer-events: none;
-    height: 51px;
-    width: 325px;
-    margin: 5px 10px;
+    height: 3.5vw;
+    width: 23vw;
+    margin: 5px;
     align-items: center;
+    transition: none;
 }
 
 .text-box .img-background {
     opacity: 60% !important;
+    width: 22vw;
+    height: 2.5vw !important;
     position: absolute !important;
 }
 
@@ -163,19 +168,20 @@
 }
 
 .text-box-larger {
-    height: 67px;
+    height: 5vw;
 }
 
-@media(min-width: 699px) {
-    .text-box-larger .img-background {
-        height: 51px !important;
-    }
-
-    .img-column h3 {
-        max-width: 290px;
-    }
-
+.text-box-larger .img-background {
+    height: 4vw !important;
 }
+
+
+/* @media(max-width: 1269px) {
+    .row-images .images, .img-column {
+        width: 30vw;
+        height: 24vw;     
+    }  
+} */
 
 @media(max-width: 698px) {
 
@@ -186,6 +192,10 @@
 
     .img-column {
         margin: 8px;
+    }
+
+    .text-box .img-background {
+        height: 8vw !important;
     }
 
     .img-background {
@@ -220,6 +230,7 @@
     .img-column h3 {
         bottom: -35vw;
         font-size: 6vw;
+        max-width: 95%;
     }
 
     .img-column:hover h3, .img-txt.hovered {
