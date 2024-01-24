@@ -54,13 +54,13 @@
 
 .menu-links .large {
     color: black;
-    font-size: max(1.5vw, 20px);
+    font-size: max(1.5vw, 24px);
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links .normal {
     color: black;
-    font-size: max(1vw, 14px);
+    font-size: max(1vw, 16px);
     font-family: 'Merriweather Sans', sans-serif;
 }
 
