@@ -13,7 +13,7 @@
 }
 
 .menu-categories {
-    flex: 0 0 22vw;
+    flex: 0 0 20vw;
     display: flex;
     justify-content: center;
     background-color: #eee2d4;
@@ -23,7 +23,7 @@
     /* transition: 0.25s; */
     box-shadow: 20px 20px 20px 0px rgba(0,0,0,.1);
     height: -webkit-fill-available;
-    width: 22vw;
+    width: 20vw;
     background: #eee2d4;
     z-index: 1;
     overflow: auto;
@@ -54,20 +54,20 @@
 
 .menu-links .large {
     color: black;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links .normal {
     color: black;
-    font-size: 17px;
+    font-size: 1vw;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links ul * {
     text-decoration: none;
     overflow-x: hidden;
-    margin: 4.5px;
+    margin: 0.3vw;
 }
 
 
