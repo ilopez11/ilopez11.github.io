@@ -54,20 +54,20 @@
 
 .menu-links .large {
     color: black;
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 20px);
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links .normal {
     color: black;
-    font-size: 1vw;
+    font-size: max(1vw, 14px);
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .menu-links ul * {
     text-decoration: none;
     overflow-x: hidden;
-    margin: 0.3vw;
+    margin: 0.25vw;
 }
 
 
