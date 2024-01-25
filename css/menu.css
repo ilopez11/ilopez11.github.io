@@ -69,7 +69,7 @@
 .menu-links ul * {
     text-decoration: none;
     overflow-x: hidden;
-    margin: 0.25vw;
+    margin: 0.3vw;
 }
 
 
@@ -261,7 +261,7 @@
     } 
 
     .menu-categories {
-        flex: 0 0 56px;
+        flex: 0 0 63.7px;
     }
 
     .menu-category-list {
@@ -309,13 +309,13 @@
 
 @media(max-width: 390px) {
     .menu-categories {
-        flex: 0 0 54px;
+        flex: 0 0 54.2px;
     }
 }
 
 @media(max-width: 350px) {
     .menu-categories {
-        flex: 0 0 51px;
+        flex: 0 0 51.7px;
     }
 }
 
