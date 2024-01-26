@@ -39,31 +39,40 @@ window.addEventListener("load", function() {
         
         if (document.body.scrollTop > 24 || document.documentElement.scrollTop > 24) {
             if (img1Top <= windowCenter && img1Bottom >= windowCenter) {
+                ($('.img-column').eq(0).addClass('hovered'));
                 ($('.images').eq(0).addClass('hovered'));
                 ($('.img-txt').eq(0).addClass('hovered'));
             } else {
+                ($('.img-column').eq(0).removeClass('hovered'));
                 ($('.images').eq(0).removeClass('hovered'));
                 ($('.img-txt').eq(0).removeClass('hovered'));
             }
             if (img2Top <= windowCenter && img2Bottom >= windowCenter) {
+                ($('.img-column').eq(1).addClass('hovered'));
                 ($('.images').eq(1).addClass('hovered'));
                 ($('.img-txt').eq(1).addClass('hovered'));
             } else {
+                ($('.img-column').eq(1).removeClass('hovered'));
                 ($('.images').eq(1).removeClass('hovered'));
                 ($('.img-txt').eq(1).removeClass('hovered'));
             }
             if (img3Top <= windowCenter && img3Bottom >= windowCenter) {
+                ($('.img-column').eq(2).addClass('hovered'));
                 ($('.images').eq(2).addClass('hovered'));
                 ($('.img-txt').eq(2).addClass('hovered'));
             } else {
+                ($('.img-column').eq(2).removeClass('hovered'));
                 ($('.images').eq(2).removeClass('hovered'));
                 ($('.img-txt').eq(2).removeClass('hovered'));
             }
         } else {
+            ($('.img-column').eq(0).removeClass('hovered'));
             ($('.images').eq(0).removeClass('hovered'));
             ($('.img-txt').eq(0).removeClass('hovered'));
+            ($('.img-column').eq(1).removeClass('hovered'));
             ($('.images').eq(1).removeClass('hovered'));
             ($('.img-txt').eq(1).removeClass('hovered'));
+            ($('.img-column').eq(2).removeClass('hovered'));
             ($('.images').eq(2).removeClass('hovered'));
             ($('.img-txt').eq(2).removeClass('hovered'));
         }
