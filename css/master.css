@@ -153,7 +153,9 @@ header {
 .img-container {
   display: inherit;
   width: 25vw;
+  min-width: 277px;
   height: 20vw;
+  min-height: 222px;
   justify-content: center;
   align-items: center;
 }
@@ -171,9 +173,11 @@ header {
   flex-flow: wrap-reverse;
 }
 
-.img-column:hover {
+.img-column:hover, .img-column.hovered {
   width: 24.5vw;
+  min-width: 271px;
   height: 19.5vw;
+  min-height: 216px;
 } 
 
 .row-images img {
@@ -186,10 +190,17 @@ header {
   border:2px solid #cfab8b;
 }
 
+.row-images img, .img-column {
+  min-width: 266px;
+  min-height: 211px;
+}
+
 .img-column:hover img, .images.hovered {
   box-shadow: 0 0 25px 1px wheat;
   width: 24.5vw;
+  min-width: 271px;
   height: 19.5vw;
+  min-height: 216px;
   opacity: 60%;
 }
 
@@ -199,7 +210,7 @@ header {
 
 .img-column h3 {
   position: relative;
-  font-size: 22px;
+  font-size: max(1.8vw, 20px);
   bottom: 0px;
   text-align: center;
   color: #ffffff;
@@ -212,7 +223,7 @@ header {
 
 .img-column:hover h3, .img-txt.hovered {
     opacity: 1;
-    bottom: 125px;
+    bottom: max(8.8vw, 98px);
 }
 
 .business-summary {
@@ -353,7 +364,9 @@ header {
 
   .row-images .images, .img-column {
     width: 85vw;
-    height: 65vw;     
+    min-width: unset;
+    height: 65vw;   
+    min-height: unset;  
   }
 
   .img-column {
@@ -364,10 +377,13 @@ header {
     width: 87vw;
     height: 67vw;
   } 
+  
 
   .img-column:hover, .img-column.hovered {
       width: 87vw;
+      min-width: unset;
       height: 67vw;
+      min-height: unset;
   } 
 
   .img-column h3 {
@@ -381,7 +397,9 @@ header {
 
   .img-column:hover img, .images.hovered {
     width: 87vw;
+    min-width: unset;
     height: 67vw;
+    min-height: unset;
   }
 }
 

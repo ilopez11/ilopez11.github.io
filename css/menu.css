@@ -109,6 +109,11 @@
    background: black;
 }
 
+.row-images img, .img-column, .img-container {
+    min-width: unset;
+    min-height: unset;
+  }
+
 .img-column:hover img, .images.hovered {
     opacity: 90%;
 }
