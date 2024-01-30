@@ -378,7 +378,6 @@ header {
     height: 67vw;
   } 
   
-
   .img-column:hover, .img-column.hovered {
       width: 87vw;
       min-width: unset;
