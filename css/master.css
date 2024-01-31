@@ -9,8 +9,12 @@ body {
 }
 
 p {
-  font-size: min(5.1vw, 30px);
+  font-size: min(5.2vw, 30px);
   color: #eee2d4;
+}
+
+.hours > p {
+  font-size: min(5.8vw, 30px);
 }
 
 h1 {
@@ -25,7 +29,7 @@ h2 {
 
 .services li { 
   display: inline; 
-  font-size: min(4.5vw, 24px);
+  font-size: min(5vw, 24px);
   color: #eee2d4;
 }
 
