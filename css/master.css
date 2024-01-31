@@ -9,27 +9,23 @@ body {
 }
 
 p {
-  font-size: min(5vw, 25px);
+  font-size: min(5.1vw, 30px);
   color: #eee2d4;
 }
 
-.hours > p {
-  font-size: 27px;
-}
-
 h1 {
-  font-size: 38px;
+  font-size: min(10vw, 48px);
   color: #eee2d4;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: min(8vw, 40px);
   color: #eee2d4;
 }
 
 .services li { 
   display: inline; 
-  font-size: 22px;
+  font-size: min(4.5vw, 24px);
   color: #eee2d4;
 }
 
@@ -154,8 +150,10 @@ header {
   display: inherit;
   width: 25vw;
   min-width: 277px;
+  max-width: 413px;
   height: 20vw;
   min-height: 222px;
+  max-height: 330px;
   justify-content: center;
   align-items: center;
 }
@@ -176,8 +174,10 @@ header {
 .img-column:hover, .img-column.hovered {
   width: 24.5vw;
   min-width: 271px;
+  max-width: 401px;
   height: 19.5vw;
   min-height: 216px;
+  max-height: 319px;
 } 
 
 .row-images img {
@@ -192,15 +192,19 @@ header {
 
 .row-images img, .img-column {
   min-width: 266px;
+  max-width: 396px;
   min-height: 211px;
+  max-height: 314px;
 }
 
 .img-column:hover img, .images.hovered {
   box-shadow: 0 0 25px 1px wheat;
   width: 24.5vw;
   min-width: 271px;
+  max-width: 401px;
   height: 19.5vw;
   min-height: 216px;
+  max-height: 319px;
   opacity: 60%;
 }
 
@@ -210,7 +214,7 @@ header {
 
 .img-column h3 {
   position: relative;
-  font-size: max(1.8vw, 20px);
+  font-size: clamp(20px, 1.8vw, 29.5px);
   bottom: 0px;
   text-align: center;
   color: #ffffff;
@@ -223,7 +227,7 @@ header {
 
 .img-column:hover h3, .img-txt.hovered {
     opacity: 1;
-    bottom: max(8.8vw, 98px);
+    bottom: clamp(98px, 8.8vw, 144px);
 }
 
 .business-summary {
@@ -365,8 +369,10 @@ header {
   .row-images .images, .img-column {
     width: 85vw;
     min-width: unset;
+    max-width: unset;
     height: 65vw;   
     min-height: unset;  
+    max-height: unset;
   }
 
   .img-column {
@@ -381,8 +387,10 @@ header {
   .img-column:hover, .img-column.hovered {
       width: 87vw;
       min-width: unset;
+      max-width: unset;
       height: 67vw;
       min-height: unset;
+      max-height: unset;
   } 
 
   .img-column h3 {
@@ -397,8 +405,10 @@ header {
   .img-column:hover img, .images.hovered {
     width: 87vw;
     min-width: unset;
+    max-width: unset;
     height: 67vw;
     min-height: unset;
+    max-height: unset;
   }
 }
 
@@ -414,7 +424,7 @@ header {
   }
 }
 
-@media(max-width: 490px) {
+/* @media(max-width: 490px) {
 
   p {
     font-size: 21px;
@@ -479,9 +489,9 @@ header {
 
   .services li { 
     font-size: 16px;
-  }
+  } 
 }
-
+ */
 
 
 

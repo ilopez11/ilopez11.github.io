@@ -111,18 +111,24 @@
 
 .row-images img, .img-column, .img-container {
     min-width: unset;
+    max-width: unset;
     min-height: unset;
+    max-height: unset;
 }
 
 .img-column:hover, .img-column.hovered {
     min-width: unset;
+    max-width: unset;
     min-height: unset;
+    max-height: unset;
 } 
 
 .img-column:hover img, .images.hovered {
     opacity: 90%;
     min-width: unset;
+    max-width: unset;
     min-height: unset;
+    max-height: unset;
 }
 
 .img-background {
