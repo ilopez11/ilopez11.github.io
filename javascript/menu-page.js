@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
     $('.title').click(function() {
         if (window.innerWidth > 884) {
-            $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-105}, "slow");
+            $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-104}, "slow");
         } else {
             $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-69}, "slow");
         }
@@ -64,7 +64,7 @@ window.addEventListener("load", function() {
                     $('.menu-title h1').html("Menu");
                 }
             } else {
-                topOfSection = windowTop + 105.5;
+                topOfSection = windowTop + 105.2;
                 $('.menu-title h1').html("Menu");
                 if($(this).offset().top + $(this).height() > topOfSection){
                     $(".title").removeClass('selected');
