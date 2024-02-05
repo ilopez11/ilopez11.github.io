@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="images/logos/ParadiseFavicon.png">
+    <title>The Paradise Restaurant</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e2782767de.js" crossorigin="anonymous"></script>
+    <script src="javascript/jquery-3.7.1.js"></script>
+    <script src="javascript/master.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+        $(".main").css('background-position', 'center, bottom 0vw left 0vw, bottom 0vw right 0vw, center');
+      });
+    </script>
+  </head>
+  <body>
+    <section class="main">
+      <header id="topHeader">
+        <div id="topInfo" class="top-info">
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          <a href="index.html"><img id="logo" src="images/logos/ParadiseLogoModified.png" alt="Restaurant Logo"></a>
+          <nav>
+            <div class="nav-screen" id="navScreen" onclick="hideMenu()"></div>
+            <div class="nav-links" id="navLinks">
+              <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Spaces</a></li>
+              </ul>
+              <img id="miniLogo" src="images/logos/ParadiseFavicon.png" alt="Mini Restaurant Logo">
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="business-info">
+        <div>
+          <br>
+          <h1 id="title">The Paradise Story:</h1>
+          <p class="story">
+            A family-owned business committed to serving authentic American/Mexican dishes and pies in a friendly and peaceful environment. This idea began with Alfonso and Maria López coming to the United States in 1986 following the American Dream. Both were raised in neighboring humble farms in Oaxaca, Mexico, before departing their homes, searching for a better life across the border.
+          </p>
+          <div class="row-images" id="mexicoHouse">
+            <div class="img-container">
+              <div class="img-column">
+                <img class="images" src="images/owners/CasaMexico.jpeg" alt="Nuestra Casa en Mexico">
+                <h3 class="img-txt">Alfonso & Maria's home in Mexico, constructed in 1998 with the help of family and friends, is now revisited every few years on family trips back to their homeland.</h3>
+              </div>
+            </div>
+          </div>
+          <p class="story">
+            Alfonso spent several years working in orchards and at a cattle ranch upon arriving in the United States until he eventually pursued his dream to become an educator by obtaining a teaching degree. He would go on to begin his educational career as a teacher and eventually became Principal and is currently the Director of Hispanic/Latino relations for the Wenatchee school district.
+          </p>
+          <div class="row-images" id="alfonsoRancho">
+            <div class="img-container">
+              <div class="img-column">
+                <img class="images" src="images/owners/CattleRanch.jpeg" alt="Alfonso Y sus Vacas">
+                <h3 class="img-txt">Alfonso working at a farm in Ellensburg, WA, in 1989, where he was primarily responsible for maintaining cattle and other animals for the following five years.</h3>
+              </div>
+            </div>
+          </div>
+          <p class="story">
+            Maria supported him with his endeavor by always tending to their three children, Julio, Mauricio, and Ivan. She would always remain busy working in the food industry, mainly in restaurants, as a waitress and cook at various businesses. She would eventually attend college to learn English and then obtain her GED diploma with a degree in accounting. However, during several years working in restaurants, Maria collected several recipes and popular dishes now served at her very own restaurant.
+          </p>
+          <div class="row-images" id="mariaHijos">
+            <div class="img-container">
+              <div class="img-column">
+                <img class="images" src="images/owners/MariaYHijos.jpeg" alt="Maria Y sus Hijos">
+                <h3 class="img-txt">Maria, accompanied by her three boys, Julio, Mauricio, and Ivan, in 2001, each continuing to follow her wherever she goes even today.</h3>
+              </div>
+            </div>
+          </div>
+          <p class="story"> 
+            The Paradise aims to provide a heavenly experience for all its customers with great food, friendly service, and a peaceful environment. Our menu contains many authentic American and Mexican dishes collected and created by Maria. We are proudly run by the entire family, along with incredible additional staff, and owned by Maria, Alfonso, and Julio Lopez.
+          </p>
+        </div>
+      </div>
+      <div class="row-images clip">
+        <div class="img-container movie">
+            <video id="cooking" autoplay muted loop>
+              <source src="images/owners/MariaCooking.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+    </section>
+    <section class="business-summary">
+      <div class="summary-col">
+        <div class="location">
+          <h1 class="summary-header">See More of Our Story:</h1>
+          <p class="article"><a id="address" href="https://www.wenatcheeworld.com/business/eye-on-the-paradise-restaurant/article_470c3846-f965-11eb-a684-1b6c2933d336.html">The Wenatcee World | Eye On The Paradise | By Tony Buhr </a></p>
+          <br>
+          <p class="article"><a id="number" href="images/owners/TheParadiseRestaurant-DavidLuyben-2021.pdf">The Paradise Restaurant | By David Luyben</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div>
+        <h2>Follow Us</h2>
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/paradiserestaurant15/"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/explore/locations/1021401098/the-paradise-restaurant/"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023. The Paradise Restaurant. All Rights Reserved.</p>
+      </div>
+    </section>
+  </body>
+</html>

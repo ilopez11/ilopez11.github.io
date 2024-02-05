@@ -247,6 +247,11 @@ header {
   border:2px solid #eee2d4;
 }
 
+.summary-header {
+  padding-bottom: 10px;
+  line-height: min(9vw, 45px);
+}
+
 .footer {
   text-align: center;
   background-color:#5d9267e8;
@@ -270,7 +275,7 @@ header {
 
 .fa-brands {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .copyright {

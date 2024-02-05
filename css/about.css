@@ -1,0 +1,73 @@
+.story {
+    margin: 1vw 8vw;
+}
+
+.row-images {
+    flex-wrap: wrap;
+}
+
+.img-column {
+    align-items: center;
+}
+
+.img-txt {
+    color: #eee2d4 !important;
+    bottom: -5px !important;
+    margin: 15px;
+}
+
+#cooking {
+    width: inherit;
+    height: inherit;
+    min-height: 350px;
+    border: 2px solid #cfab8b;
+}
+
+#mexicoHouse {
+    float: inline-start;
+}
+
+#alfonsoRancho {
+    float: inline-end
+}
+
+#mariaHijos {
+    float: inline-start;
+}
+
+#alfonsoSchool {
+    float: inline-end;
+}
+
+#grandOpening {
+    float: inline-start;
+}
+
+.clip {
+    width: auto;
+    padding-bottom: 22px;
+}
+
+.movie {
+    height: 18vw;
+    width: auto;
+    max-width: unset;
+    max-height: unset;
+    min-height: 350px;
+}
+
+#address, #number, #title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+@media(max-width: 698px) {
+    .movie {
+        min-height: unset;
+        height: 52vw;
+    }
+
+    #cooking {
+        min-height: unset;
+    }
+}
