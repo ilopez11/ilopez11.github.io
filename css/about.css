@@ -56,7 +56,7 @@
     min-height: 350px;
 }
 
-#address, #number, #title {
+.article-txt, .title {
     text-decoration: underline;
     text-underline-offset: 3px;
 }

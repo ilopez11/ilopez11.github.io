@@ -116,6 +116,10 @@ header {
   padding-bottom: 5px;
 }
 
+.location-txt {
+  font-size: min(5.2vw, 30px);
+}
+
 .location a {
   color: hwb(32 83% 7%);
 }
