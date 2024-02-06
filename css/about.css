@@ -24,23 +24,15 @@
 }
 
 #mexicoHouse {
-    float: inline-start;
+    /* float: inline-start; */
 }
 
 #alfonsoRancho {
-    float: inline-end
+    /* float: inline-end */
 }
 
 #mariaHijos {
-    float: inline-start;
-}
-
-#alfonsoSchool {
-    float: inline-end;
-}
-
-#grandOpening {
-    float: inline-start;
+    /* float: inline-start; */
 }
 
 .clip {
