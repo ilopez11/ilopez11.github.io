@@ -1,3 +1,7 @@
+html {
+    display: flex;
+}
+
 .story {
     margin: 1vw 6vw;
 }
@@ -24,15 +28,15 @@
 }
 
 #mexicoHouse {
-    /* float: inline-start; */
+    float: inline-start;
 }
 
 #alfonsoRancho {
-    /* float: inline-end */
+    float: inline-end
 }
 
 #mariaHijos {
-    /* float: inline-start; */
+    float: inline-start;
 }
 
 .clip {
