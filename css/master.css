@@ -285,6 +285,7 @@ header {
 .copyright {
   border-top: 1px solid #646668;
   padding-top: 20px;
+  margin: 0px 20px;
 }
 
 .unscrollable {

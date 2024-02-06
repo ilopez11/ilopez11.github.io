@@ -1,4 +1,8 @@
 window.addEventListener("load", function() {
+    var title = $('body').is('.menu-page') ? "Menu" : "Spaces";
+
+    console.log(title);
+
     $('.title').click(function() {
         if (window.innerWidth > 884) {
             $('html, body').animate({scrollTop: $('#'+this.className.split(" ")[1]).offset().top-104}, "slow");
@@ -48,7 +52,7 @@ window.addEventListener("load", function() {
     
         var windowTop = $(window).scrollTop();
         var topOfSection;
-        var topMargin = (window.innerWidth <= 350) ? 86 : (window.innerWidth <= 390) ? 89 : 91;
+        var topMargin = (window.innerWidth <= 350) ? 85 : (window.innerWidth <= 390) ? 89 : 91;
         $('.section').each(function() {
             if (window.innerWidth < 884) {
                 topOfSection = windowTop + 70;
@@ -58,11 +62,11 @@ window.addEventListener("load", function() {
                     $(".title."+$(this).attr('id')).addClass('selected');
                     return false;
                 } else {
-                    $('.menu-title h1').html("Menu");
+                    $('.menu-title h1').html(title);
                 }
             } else {
                 topOfSection = windowTop + 105.2;
-                $('.menu-title h1').html("Menu");
+                $('.menu-title h1').html(title);
                 if($(this).offset().top + $(this).height() > topOfSection){
                     $(".title").removeClass('selected');
                     $(".title."+$(this).attr('id')).addClass('selected');

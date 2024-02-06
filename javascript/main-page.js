@@ -9,19 +9,19 @@ window.addEventListener("load", function() {
     
     $(".main").css('background-position', 'center, bottom 0vw left 0vw, bottom 0vw right 0vw, center');
 
-    var index = 0;
-    var col1Images = ["Patio", "Patio2"];
-    var col1 = document.getElementById("imgColumn1");
+    // var index = 0;
+    // var col1Images = ["Patio", "Patio2"];
+    // var col1 = document.getElementById("imgColumn1");
 
-    var col3Images = ["Pies", "CamaronesSizzling"];
-    var col3 = document.getElementById("imgColumn3");
-    changeImages();
-    function changeImages() {
-        col1.src = "images/spaces/" + col1Images[index] + ".jpeg";
-        col3.src = "images/dinner/" + col3Images[index] + ".jpeg";
-        index < 1 ? index++ : index = 0; 
-        setTimeout(changeImages, 4000);
-    }
+    // var col3Images = ["Pies", "CamaronesSizzling"];
+    // var col3 = document.getElementById("imgColumn3");
+    // changeImages();
+    // function changeImages() {
+    //     col1.src = "images/spaces/" + col1Images[index] + ".jpeg";
+    //     col3.src = "images/dinner/" + col3Images[index] + ".jpeg";
+    //     index < 1 ? index++ : index = 0; 
+    //     setTimeout(changeImages, 4000);
+    // }
 
     scrollFunction();
     

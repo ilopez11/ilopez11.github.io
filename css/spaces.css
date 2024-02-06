@@ -1,0 +1,15 @@
+.section-title {
+    background-color: #5d8092e8;
+}
+
+.selected {
+    color: #5d8092e8 !important;
+}
+
+.menu-links p:hover {
+    color: #5d8092e8;
+}
+
+.menu-categories {
+    background-color: #5d8092e8;
+}
