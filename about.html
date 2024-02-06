@@ -17,6 +17,17 @@
     <script>
       window.addEventListener("load", function() {
         $(".main").css('background-position', 'center, bottom 0vw left 0vw, bottom 0vw right 0vw, center');
+        $('.main').click(function() {
+            if ($('.category-nav').hasClass('displayed-nav')) {
+                toggleNavDisplay();
+            }
+        }); 
+
+        function toggleNavDisplay() {
+            $('.category-nav').toggleClass('displayed-nav');
+            $('.fa-angle-down').toggleClass('fa-angle-up');
+            $('body').toggleClass('unscrollable');
+        }
       });
     </script>
   </head>
