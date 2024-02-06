@@ -11,11 +11,11 @@ window.addEventListener("load", function() {
         toggleNavDisplay();
     });
 
-    // $('.menu-info').click(function() {
-    //     if ($('.category-nav').hasClass('displayed-nav')) {
-    //         toggleNavDisplay();
-    //     }
-    // }); 
+    $('.menu-info').click(function() {
+        if ($('.category-nav').hasClass('displayed-nav')) {
+            toggleNavDisplay();
+        }
+    }); 
 
     function toggleNavDisplay() {
         $('.category-nav').toggleClass('displayed-nav');
