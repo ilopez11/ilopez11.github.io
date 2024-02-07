@@ -120,11 +120,15 @@ header {
   font-size: min(5.2vw, 30px);
 }
 
-.location a {
+.location a, .personal-mail {
   color: hwb(32 83% 7%);
 }
 
-.location a:hover {
+.personal-mail {
+  text-decoration: none;
+}
+
+.location a:hover, .personal-mail:hover  {
   color: #106bb5;
 }
 
@@ -263,6 +267,10 @@ header {
   cursor: default;
 }
 
+.footer-location {
+  padding: 10px 0px 20px 0px;
+}
+
 .social-list {
   display: flex;
   justify-content: center;
@@ -286,6 +294,10 @@ header {
   border-top: 1px solid #646668;
   padding-top: 20px;
   margin: 0px 20px;
+}
+
+.copyright p {
+  font-size: min(5vw, 25px);
 }
 
 .unscrollable {
