@@ -13,3 +13,7 @@
 .menu-categories {
     background-color: #5d8092e8;
 }
+
+.img-column:hover img, .images.hovered {
+    opacity: unset;
+}
