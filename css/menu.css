@@ -75,7 +75,7 @@ h1 {
 .menu-links ul * {
     text-decoration: none;
     overflow-x: hidden;
-    margin: 0.3vw;
+    margin: max(0.3vw, 4px) ;
 }
 
 
