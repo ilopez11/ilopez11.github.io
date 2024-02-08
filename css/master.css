@@ -263,12 +263,12 @@ header {
 .footer {
   text-align: center;
   background-color:#5d9267e8;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px;
   cursor: default;
 }
 
 .footer-location {
-  padding: 10px 0px 20px 0px;
+  padding: min(4vw, 15px) 0px;
 }
 
 .social-list {
@@ -278,7 +278,7 @@ header {
 }
 
 .social-list li {
-  padding: 10px;
+  padding: 0px min(3vw, 15px);
 }
 
 .social-list a {
@@ -287,17 +287,17 @@ header {
 
 .fa-brands {
   cursor: pointer;
-  font-size: 40px;
+  font-size: min(9vw, 40px);
 }
 
 .copyright {
   border-top: 1px solid #646668;
-  padding-top: 20px;
+  padding-top: min(3vw, 10px);
   margin: 0px 20px;
 }
 
 .copyright p {
-  font-size: min(5vw, 25px);
+  font-size: min(4vw, 20px);
 }
 
 .unscrollable {
