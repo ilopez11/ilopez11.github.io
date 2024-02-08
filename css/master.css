@@ -126,6 +126,7 @@ header {
 
 .personal-mail {
   text-decoration: none;
+  color: #344858;
 }
 
 .location a:hover, .personal-mail:hover  {
@@ -282,7 +283,11 @@ header {
 }
 
 .social-list a {
-  color: #1E3050;
+  color: #344858;
+}
+
+.social-list a:hover {
+  color: #106bb5;
 }
 
 .fa-brands {
@@ -297,7 +302,7 @@ header {
 }
 
 .copyright p {
-  font-size: min(4vw, 20px);
+  font-size: min(4.5vw, 20px);
 }
 
 .unscrollable {
